@@ -1,0 +1,165 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-top: 30px;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+.Flatland {
+  max-width: 600px;
+  width: 100%;
+  background-color: #fff;
+  padding: 9px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  font-family: sans-serif;
+}
+.Midland {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-bottom: 20px;
+  font-family: sans-serif;
+
+}
+.Midland .Heading{
+  
+  font-size: 25px;
+  font-weight: bold;
+  position: relative;
+  text-align: center;
+}
+  
+.Mainland form .user-details {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  padding-left: 26px;
+  padding-right: 26px;
+}
+form .user-details .name-box{
+  padding-bottom: 5px;
+}
+form .user-details .mail-box{
+  padding-bottom: 5px;
+}
+
+form .user-details .name-box input{
+  height: 30px;
+  width: 130px;
+  outline: none;
+  font-family: sans-serif;
+  font-size: 9px;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  border-bottom-width: 2px;
+  text-align: left;
+  
+}
+
+form .user-details .username-box input{
+  height: 30px;
+  width: 130px;;
+  outline: none;
+  font-family: sans-serif;
+  font-size: bold;
+  font-size: 9px;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  border-bottom-width: 2px;
+  text-align: left;
+  
+}
+form .user-details .mail-box input{
+  height: 30px;
+  width: 130px;
+  outline: none;
+  font-size: 9px;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  border-bottom-width: 2px;
+  text-align: left;
+  
+}
+form .user-details .phone-box input{
+  height: 30px;
+  width: 130px;
+  outline: none;
+  font-size: 8.5px;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  border-bottom-width: 2px;
+  text-align: left;
+  
+}
+form .user-details .password-box input{
+  height: 30px;
+  width: 130px;
+  outline: none;
+  font-size: 9px;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  border-bottom-width: 2px;
+  text-align: left;
+  
+}
+form .user-details .Confirm input{
+  height: 30px;
+  width: 130px;
+  outline: none;
+  font-size: 9px;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  border-bottom-width: 2px;
+  text-align: left;
+  
+}
+
+form .Gender{
+  padding-top:10px;
+  padding-left:26px;
+}
+.gender .tick{
+  padding-top: 15px;
+  display: flex;
+  justify-content:space-between;
+
+}
+
+
+
+
+
+
+
+form .button {
+  height: 35px;
+  margin: 25px;
+  padding-right: 2px;
+
+}
+form .button input {
+  height: 90%;
+  width: 13%;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-size: 12px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  cursor: pointer;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+
+
+
+
+
